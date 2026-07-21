@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://au-threatened.benrichardson.dev/sitemap.xml
