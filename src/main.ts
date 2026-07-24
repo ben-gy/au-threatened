@@ -6,7 +6,6 @@ import { loadDataset, Dataset, esc } from './data';
 import type { Ctx, ViewId, Filter, View } from './app';
 import { initTooltip, hideTooltip } from './components/tooltip';
 import { initGlossary } from './glossary';
-import { mountFeedback } from './feedback';
 import { openAbout } from './about';
 import { openSpeciesDrawer, openStateDrawer, initDrawerKeys, closeDrawer } from './drilldown';
 import { renderOverview } from './views/overview';
@@ -133,7 +132,6 @@ function boot(data: Dataset): void {
   initGlossary();
   initDrawerKeys();
   route();
-  mountFeedback();
 }
 
 const app = document.getElementById('app')!;
