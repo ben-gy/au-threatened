@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Ben Richardson — https://benrichardson.dev
+// Additional terms under AGPL-3.0 section 7(b) apply; see ADDITIONAL-TERMS.md.
 // Fetch the EPBC Act threatened-species list, parse it, and emit the compact
 // frontend dataset. Dependency-free (Node 20 global fetch + fs). Run by the
 // quarterly data-pipeline workflow and locally.

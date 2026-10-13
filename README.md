@@ -59,6 +59,17 @@ node pipeline/collect.mjs   # refresh public/data/species.json from source
 
 `pipeline/collect.mjs` downloads the EPBC list, parses it with its own RFC-4180 reader (`pipeline/parse.mjs`, shared with the test suite), aggregates counts, and asserts the status and kingdom totals reconcile before writing `public/data/species.json` — the build fails on drift. The frontend fetches that JSON at load and computes every view client-side; there is no backend.
 
-## License
+## license
 
-MIT
+[GNU Affero General Public License v3.0 or later](./LICENSE), with an attribution
+requirement added under section 7(b) — see
+[ADDITIONAL-TERMS.md](./ADDITIONAL-TERMS.md).
+
+In short: you may run, modify, redistribute and even sell this, but if you
+distribute it — or run a modified version where other people can reach it — you
+have to publish your source under the same licence and keep the attribution. A
+separate commercial licence without those obligations is available on request:
+<hi@ben.gy>.
+
+Third-party components keep their own licences — see
+[THIRD-PARTY-NOTICES.md](./THIRD-PARTY-NOTICES.md).

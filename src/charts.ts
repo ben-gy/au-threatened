@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Ben Richardson — https://benrichardson.dev
+// Additional terms under AGPL-3.0 section 7(b) apply; see ADDITIONAL-TERMS.md.
 // Hand-rolled chart builders — HTML bar lists and segmented status bars.
 // No chart library. Every mark carries a data-tip and a data-key for clicks.
 import { STATUS, STATUS_ORDER, StatusCode, fmt, esc } from './data';

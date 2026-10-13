@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+// Copyright (C) 2026 Ben Richardson — https://benrichardson.dev
+// Additional terms under AGPL-3.0 section 7(b) apply; see ADDITIONAL-TERMS.md.
 // Glossary terms + inline click-to-explain popovers. Follows the Artemis
 // Tracker pattern: `.glossary-link` spans carry a data-term; one fixed popover
 // is positioned near the clicked term and dismissed on outside-click / Escape.
